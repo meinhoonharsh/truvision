@@ -8,19 +8,13 @@
 
     }
 
-    /* .solidheader {
-            {
-            % if page=='index' %
-        }
-
-        display: none;
-
-            {
-            % endif %
-        }
+    .solidheader {
+        @if ($page == 'index')
+            display: none;
+        @endif
 
         background: var(--primary);
-    } */
+    }
 
     nav {
         margin: auto;
