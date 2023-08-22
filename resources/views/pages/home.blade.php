@@ -1,5 +1,3 @@
-
-
 @extends('layout.app')
 @php
     $title = 'Home';
@@ -7,7 +5,6 @@
 @endphp
 
 @section('content')
-    Hello dosto
     @include('sections.videocontainer')
     @include('sections.botocarousel')
     @include('sections.homeabout')
