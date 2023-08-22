@@ -446,8 +446,7 @@
 
                         <a href="index.html" class="" style="text-align:center">
 
-                            <img src="{{ url_for('static', filename = 'assets/images/logowhite.png') }}" alt="footer_logo"
-                                class="img-fluid">
+                            <img src="/static/assets/images/logowhite.png" alt="footer_logo" class="img-fluid">
                         </a>
                     </div>
                     <p class="footer-info-text">

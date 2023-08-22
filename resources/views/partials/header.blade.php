@@ -129,7 +129,7 @@
             <li><a href="/about">About</a></li>
             <li><a href="/gallery">Gallery</a></li>
         </ul>
-        <img src="{{ url_for('static', filename = 'assets/images/logowhite.png') }}" alt="">
+        <img src="/static/assets/images/logowhite.png" alt="">
 
         <ul class="rightul">
             <li><a href="/#services">Services</a></li>

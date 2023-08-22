@@ -4,7 +4,7 @@
 <head>
 
 
-    <title>{{ title }} | Truvision Films</title>
+    <title>{{ $title }} | Truvision Films</title>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/c5fe5e7547.js" crossorigin="anonymous"></script>
     <!--IcoFont-->
@@ -71,9 +71,9 @@
     </script>
 
     <!-- Style.css -->
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'assets/css/style.css') }}">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="{{ url_for('static', filename = 'assets/images/favicon.ico') }}" />
+    <link rel="shortcut icon" href="/static/assets/images/favicon.ico" />
 
 
 
@@ -130,7 +130,7 @@
         crossorigin="anonymous"></script>
 
     @include('partials.loader')
-    <script type="text/javascript" src="{{ url_for('static', filename = 'assets/js/script.js') }}"></script>
+    <script type="text/javascript" src="/static/assets/js/script.js"></script>
 
 </body>
 
