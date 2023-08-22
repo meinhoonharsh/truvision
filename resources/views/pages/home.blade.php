@@ -87,9 +87,11 @@
 
 <body>
     {% from 'components/macros.html' import parallax, anchor  %}
-    {% include 'partials/header.html' %}
-    {% block body %}{% endblock %}
-    {% include 'partials/footer.html' %}
+    @include('partials.header')
+
+    @yield('content')
+
+    @include('partials.footer')
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -127,7 +129,7 @@
         integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
         crossorigin="anonymous"></script>
 
-    {% include 'partials/loader.html' %}
+    @include('partials.loader')
     <script type="text/javascript" src="{{ url_for('static', filename = 'assets/js/script.js') }}"></script>
 
 </body>
