@@ -86,7 +86,6 @@
 </head>
 
 <body>
-    {% from 'components/macros.html' import parallax, anchor  %}
     @include('partials.header')
 
     @yield('content')
