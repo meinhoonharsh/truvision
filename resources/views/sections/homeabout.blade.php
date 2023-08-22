@@ -24,7 +24,7 @@
 
         </p>
         <center>
-            {{-- {{ anchor('View More...', '#') }} --}}
+            @include('mini.anchor', ['name' => 'View More...'])
         </center>
 
 
