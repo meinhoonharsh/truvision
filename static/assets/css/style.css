@@ -1,0 +1,150 @@
+/* Your Style here. */
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+@font-face {
+  font-family: blackchancery;
+  src: url("/static/assets/fonts/blackchancery.regular.ttf");
+}
+
+/* ----------------------------------- */
+/* ------- Root Vartiables ----------- */
+/* ----------------------------------- */
+
+/* Color Pallete: https://www.schemecolor.com/vital-information.php */
+:root {
+  /* --primary: #631A51; 
+  --secondary: #992959;*/
+  --primary: #061621;
+  --secondary: #0d3149;
+  --orange: #FFB250;
+  --green: #85A562;
+--blue: #3D5189;
+
+
+  --royal: blackchancery;
+  --ptext:'Lobster Two', cursive;
+  --philosopher: 'Philosopher', sans-serif;
+}
+
+/* ----------------------------------- */
+/* ------ End Root Vartiables -------- */
+/* ----------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: var(--primary);
+  overflow-x: hidden;
+}
+
+/* ----------------------------------- */
+/* ------- Custom ScrollBar CSS ------ */
+/* ----------------------------------- */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb::before {
+  content: "dssd";
+
+  background: var(--primary);
+  height: 20px;
+  width: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--orange);
+}
+
+
+/* ----------------------------------- */
+/* ---- End Custom ScrollBar CSS ----- */
+/* ----------------------------------- */
+
+
+.container-80{
+  width: 80%;
+  margin: auto;
+}
+/* .anchor{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--philosopher);
+}
+.anchor:hover{
+  color:var(--orange) !important;
+} */
+.contentdiv{
+  padding: 5% 0;
+}
+
+
+.anchor a {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 2.1rem;
+  background: linear-gradient(to bottom, var(--orange), var(--orange) 60%, var(--primary) 60%, var(--primary) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+  font-family: var(--philosopher);
+}
+
+.anchor {
+  position: relative;
+}
+
+.anchor:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 9px;
+  background: var(--orange);
+  border-radius: 3px;
+  bottom: 0px;
+  transition: all 0.2s ease-out;
+}
+
+.anchor a:hover {
+  background-position: 0 11px;
+}
+
+.anchor:hover:before {
+  transform: translateY(10px)
+}
