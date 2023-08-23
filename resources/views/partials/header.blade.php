@@ -9,7 +9,7 @@
     }
 
     .solidheader {
-        @if ($page == 'index')
+        @if ($page ?? '' == 'index')
             display: none;
         @endif
 
