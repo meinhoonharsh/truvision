@@ -133,7 +133,7 @@
 
     <div style="width:100%;height: 100px;display:flex;justify-content:center;align-items:center">
 
-        <img src="{{ url_for('static', filename = 'assets/images/logowhite.png') }}" alt="" style="width:70px">
+        <img src="/static/assets/images/logowhite.png" alt="" style="width:70px">
     </div>
 
     @include('mini.parallax', ['name' => 'FAQs', 'random' => rand(1, 18)])
