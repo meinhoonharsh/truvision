@@ -72,7 +72,7 @@
         @endforeach
     </div>
     <center>
-        @include('mini.anchor', ['name' => 'View More...'])
+        @include('mini.anchor', ['name' => 'View More...', 'href'=>'/gallery'])
     </center>
     <div id="services"></div>
 </div>
