@@ -457,23 +457,13 @@
                         <h3>Follow us</h3>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="https://www.facebook.com/truvisionartistry/">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-google-plus"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-linkedin"></i>
+                                <a href="tel:9303102594">
+                                    <i class="fa fa-phone"></i>
                                 </a>
                             </li>
                             <li>

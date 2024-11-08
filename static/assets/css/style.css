@@ -24,7 +24,8 @@
 
 
   --royal: blackchancery;
-  --ptext:'Lobster Two', cursive;
+  /* --ptext:'Lobster Two', cursive; */
+  --ptext:'serif';
   --philosopher: 'Philosopher', sans-serif;
 }
 

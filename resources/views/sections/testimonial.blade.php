@@ -33,7 +33,6 @@
     .testimonial .description {
         font-size: 20px;
         font-weight: 400;
-        font-style: italic;
         color: #848484;
         font-family: var(--ptext);
         word-spacing: 0.3em;
