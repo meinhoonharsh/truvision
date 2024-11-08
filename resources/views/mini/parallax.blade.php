@@ -11,12 +11,14 @@
         min-height: 200px;
         position: relative;
         background-size: cover;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
     }
 
     .parallaxdiv-{{ $name }} {
 
-        background-image: url("/static/assets/images/pics/{{ $random }}.jpg");
+        /* background-image: url("/static/assets/images/pics/{{ $random }}.jpg"); */
+        background-image: url("https://r4.wallpaperflare.com/wallpaper/124/246/465/dark-blue-ornament-texture-wallpaper-70403559af566e8368efd756eb8604b8.jpg");
+        background-image: url("https://r4.wallpaperflare.com/wallpaper/913/752/910/digital-art-blue-leaves-pattern-wallpaper-29b0f8ed811a8d3b1687089f90d1367d.jpg");
     }
 
     .parallaxdiv div {
