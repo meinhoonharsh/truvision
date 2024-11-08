@@ -105,7 +105,7 @@
     <nav>
         <ul class="leftul">
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a href="/#about">About</a></li>
             <li><a href="/gallery">Gallery</a></li>
         </ul>
         <ul class="rightul">
@@ -126,7 +126,7 @@
     <nav>
         <ul class="leftul">
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a href="/#about">About</a></li>
             <li><a href="/gallery">Gallery</a></li>
         </ul>
         <img src="/static/assets/images/logowhite.png" alt="">

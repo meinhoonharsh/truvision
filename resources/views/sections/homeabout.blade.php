@@ -7,6 +7,7 @@
         word-spacing: 0.4;
     }
 </style>
+<div  id="about"></div>
 @include('mini.parallax', ['name' => 'About', 'random' => rand(1, 18)])
 <div class="contentdiv">
     <div class="container-80">
@@ -23,9 +24,9 @@
 
 
         </p>
-        <center>
+        <!-- <center>
             @include('mini.anchor', ['name' => 'View More...'])
-        </center>
+        </center> -->
 
 
     </div>
