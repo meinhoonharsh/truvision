@@ -127,18 +127,11 @@
 @include('mini.parallax', ['name' => 'FAQs', 'random' => rand(1, 18)])
 <div class="accordion-container">
     <div class="accordion">
-        {{-- {% set faqs = [
-        ["Where is The TVF based? Do you travel worldwide?","We cover PAN India, Destination coverages - Rajasthan, Udaipur, Goa, Jaipur. We have a team to cater to international wedding coverages like Thailand, Bangkok, Switzerland, Turkey, Dubai."],
-        ["Is TVF into wedding planning or just coverage?","Currently, we are only into coverage (photos and videos) but having worked with some of the top wedding management teams, we are happy to suggest some names at no extra cost. We are into wedding photography & video coverages."],
-        ["Is there a need to hire another photographer?","No, we have in-house sufficient professional teams, who are highly expert in their respective (photography & videography) fields. They have huge experience of their expertise."],
-        ["What is a pre-wedding shoot and how do we go about it?","A pre-wedding shoot is a photo/video shoot of the couple done before the wedding that portrays the bond they share with each other. Since the wedding is a hectic time to be together, the couple get this day off with each other to shoot some 'Relaxed, Together & Fun' images and videos and these can be used in the highlight film or as a separate two-minute pre-wedding film that can be shown during the sangeet or the wedding."],
-        ["When and where should the audio bytes be ideally recorded?","Anywhere with silence in the background. Any time during the wedding. We can also do any interviews/audio bytes before and after the wedding. At any convenient time of the couple/family. These bytes can be used in making a good cinematic film."]
-       ] %} --}}
 
         @php
             $faqs = [
-                ['Where is The TVF based? Do you travel worldwide?', 'We cover PAN India, Destination coverages - Rajasthan, Udaipur, Goa, Jaipur. We have a team to cater to international wedding coverages like Thailand, Bangkok, Switzerland, Turkey, Dubai.'],
-                ['Is TVF into wedding planning or just coverage?', 'Currently, we are only into coverage (photos and videos) but having worked with some of the top wedding management teams, we are happy to suggest some names at no extra cost. We are into wedding photography & video coverages.'],
+                ['Where is The Truvision based? Do you travel worldwide?', 'We cover PAN India, Destination coverages - Rajasthan, Udaipur, Goa, Jaipur. We have a team to cater to international wedding coverages like Thailand, Bangkok, Switzerland, Turkey, Dubai.'],
+                ['Is Truvision into wedding planning or just coverage?', 'Currently, we are only into coverage (photos and videos) but having worked with some of the top wedding management teams, we are happy to suggest some names at no extra cost. We are into wedding photography & video coverages.'],
                 ['Is there a need to hire another photographer?', 'No, we have in-house sufficient professional teams, who are highly expert in their respective (photography & videography) fields. They have huge experience of their expertise.'],
                 ['What is a pre-wedding shoot and how do we go about it?', "A pre-wedding shoot is a photo/video shoot of the couple done before the wedding that portrays the bond they share with each other. Since the wedding is a hectic time to be together, the couple get this day off with each other to shoot some 'Relaxed, Together & Fun' images and videos and these can be used in the highlight film or as a separate two-minute pre-wedding film that can be shown during the sangeet or the wedding."],
                 ['When and where should the audio bytes be ideally recorded?', 'Anywhere with silence in the background. Any time during the wedding. We can also do any interviews/audio bytes before and after the wedding. At any convenient time of the couple/family. These bytes can be used in making a good cinematic film.'],
@@ -156,9 +149,9 @@
             </div>
         @endforeach
     </div>
-    <center>
+    {{-- <center>
         @include('mini.anchor', ['name' => 'View More...'])
-    </center>
+    </center> --}}
 </div>
 
 

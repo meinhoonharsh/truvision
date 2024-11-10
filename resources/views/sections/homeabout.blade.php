@@ -1,7 +1,7 @@
 <style>
     .contentdiv .about-p {
         font-family: var(--ptext);
-        font-size: 1.2em;
+        font-size: 1.1em;
         text-align: center !important;
         color: #fffc;
         word-spacing: 0.4;
@@ -10,7 +10,7 @@
     
     .containergallery {
             font-family: var(--ptext);
-            max-width: 950px;
+            max-width: 900px;
             position: relative;
             margin: 0 auto;
             text-align: center;
