@@ -193,8 +193,7 @@
                         <div class="pic">
                             <img src="/static/assets/images/testimonial/01.jpg" alt="">
                         </div>
-                        <h3 class="title">Rajesh Singh,</h3>
-                        <span class="post">Managing Director</span>
+                        <h3 class="title">Rajesh Singh</h3>
                     </div>
 
                     <div class="testimonial">
@@ -206,8 +205,7 @@
                         <div class="pic">
                             <img src="/static/assets/images/testimonial/02.jpg" alt="">
                         </div>
-                        <h3 class="title">Harshita,</h3>
-                        <span class="post">Cashier at SBI</span>
+                        <h3 class="title">Harshita</h3>
                     </div>
                 </div>
             </div>
