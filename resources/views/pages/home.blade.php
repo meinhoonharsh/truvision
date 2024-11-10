@@ -8,9 +8,9 @@
     @include('sections.videocontainer')
     @include('sections.botocarousel')
     @include('sections.homeabout')
-    @include('sections.homegallery')
+    <!-- @include('sections.homegallery') -->
     @include('sections.homeservices')
     @include('sections.testimonial')
     @include('sections.homefaqs')
-    @include('sections.homecontact')
+    @include('sections.homecontact')        
 @endsection
