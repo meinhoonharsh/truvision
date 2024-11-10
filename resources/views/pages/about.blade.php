@@ -43,15 +43,15 @@
 
             <hr class="type_1"
                 style="
-    border: 0;
-    height: 55px;
-    width: 100%;
-    background-size: contain;
-    aspect-ratio: 452/28;
-    margin:6% 0;
-    background-repeat: no-repeat;
-    background-image: url('/static/assets/images/hrules/1.png') ;
-    ">
+                border: 0;
+                height: 55px;
+                width: 100%;
+                background-size: contain;
+                aspect-ratio: 452/28;
+                margin:6% 0;
+                background-repeat: no-repeat;
+                background-image: url('/static/assets/images/hrules/1.png') ;
+                ">
             <div class="row my-3">
                 <div class="col-md-6 pr-2">
                     lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at elit eget odio semper euismod. Nulla
