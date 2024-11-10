@@ -2,6 +2,8 @@
     
     // if $random is not defined:
     $random = $random ?? rand(1, 18);
+    $shortname = strtolower(str_replace(' ', '-', $name));
+
     
 @endphp
 
@@ -14,7 +16,7 @@
         /* background-attachment: fixed; */
     }
 
-    .parallaxdiv-{{ $name }} {
+    .parallaxdiv-{{ $shortname }} {
 
         /* background-image: url("/static/assets/images/pics/{{ $random }}.jpg"); */
         background-image: url("https://r4.wallpaperflare.com/wallpaper/124/246/465/dark-blue-ornament-texture-wallpaper-70403559af566e8368efd756eb8604b8.jpg");
@@ -57,7 +59,7 @@
         }
     }
 </style>
-<div class="parallaxdiv parallaxdiv-{{ $name }} ">
+<div class="parallaxdiv parallaxdiv-{{ $shortname }} ">
     <div>
 
         <h2 class="effect-shine">{{ $name }}</h2>
