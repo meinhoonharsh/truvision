@@ -15,6 +15,13 @@
 
         background: var(--primary);
     }
+    .solidheader nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+
+    }
 
     nav {
         margin: auto;
@@ -98,6 +105,21 @@
             margin-left: 0px;
         }
     }
+
+    .quotebutton {
+        padding: 10px 20px;
+        border-radius: 15px;
+        border: 1px solid var(--orange);
+        font-family: var(--philosopher);
+        color: #fffc;
+        font-size: 0.9em;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
+    .quotebutton:hover {
+        color: var(--orange);
+    }
 </style>
 
 <div class="header transheader">
@@ -124,17 +146,20 @@
 
 <div class="header solidheader">
     <nav>
+        <img src="/static/assets/images/logowhite.png" alt="">
         <ul class="leftul">
             <li><a href="/">Home</a></li>
             <li><a href="/#about">About</a></li>
             <li><a href="/gallery">Gallery</a></li>
-        </ul>
-        <img src="/static/assets/images/logowhite.png" alt="">
-
-        <ul class="rightul">
             <li><a href="/#services">Services</a></li>
             <li><a href="/faqs">FAQs</a></li>
             <li><a href="/contact">Contact</a></li>
+        </ul>
+
+        <ul class="rightul">
+            <a href="https://wa.me/919303102594?text=Hello%20I%20am%20interested%20in%20your%20services" target="_blank" class="quotebutton">
+                <i class="fa fa-whatsapp"></i> Request a Quote
+            </a>
         </ul>
     </nav>
 
