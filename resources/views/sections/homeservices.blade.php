@@ -83,7 +83,7 @@
 
     .serviceimg img {
         width: 50%;
-        margin: 0 auto;
+        margin: 1em auto;
         min-height: 50px;
         aspect-ratio: 16/9;
     }
