@@ -10,9 +10,9 @@
 
 <div id="contact"></div>
 
-@include('mini.parallax', ['name' => 'Contact Us', 'random' => rand(1, 18)])
+@include('mini.parallax', ['name' => 'Who we are', 'random' => rand(1, 18)])
 
-<div class="contentdiv">
+<div class="contentdiv container">
     <div class="container-80">
 
         <div class="row">
@@ -25,15 +25,16 @@
                     forming
                     the team structure and giving you a reasonable quote accordingly.
                     <br>
-
+                    <br>
                     We typically drop the quotation mail within 48 hrs of any enquiry.
                 </p>
 
-                <center>
+                {{-- <center>
                     @include('mini.anchor', ['name' => 'Contact Us'])
-                </center>
+                </center> --}}
             </div>
             <div class="col-md-6">
+                <img src="/static/assets/images/pics/6.jpg" alt="" class="img-responsive img-fluid rounded">
             </div>
 
         </div>

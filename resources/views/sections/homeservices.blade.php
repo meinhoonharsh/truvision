@@ -71,6 +71,7 @@
         box-shadow: 0 0 3px var(--orange);
         margin-bottom: 20px;
         transition: all 0.3s;
+        height: 100%;
     }
 
     .servicebox:hover {
