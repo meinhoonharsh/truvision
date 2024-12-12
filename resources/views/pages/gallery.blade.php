@@ -70,11 +70,10 @@
 
 
     <div style="width:100%;height: 100px;display:flex;justify-content:center;align-items:center">
-
         <img src="/static/assets/images/logowhite.png') }}" alt="" style="width:70px">
     </div>
 
-    @include('mini.parallax', ['name' => 'About', 'random' => rand(1, 18)])
+    @include('mini.parallax', ['name' => 'Gallery', 'random' => rand(1, 18)])
     <div class="contentdiv">
         <div id="gallery" class="container-fluid">
             @for ($img = 1; $img < 18; $img++)

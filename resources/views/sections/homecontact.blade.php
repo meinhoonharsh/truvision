@@ -7,6 +7,9 @@
         word-spacing: 0.3;
     }
 </style>
+
+<div id="contact"></div>
+
 @include('mini.parallax', ['name' => 'Contact Us', 'random' => rand(1, 18)])
 
 <div class="contentdiv">
