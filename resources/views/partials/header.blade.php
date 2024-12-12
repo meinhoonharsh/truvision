@@ -83,12 +83,10 @@
             display: block;
         }
 
-        .solidheader img {
-            position: absolute;
-            top: 5%;
-            transform: translateX(-10%)
+        .solidheader nav{
+            flex-direction: column;
+            gap: 1.5em;
         }
-
         .menubar {
             display: block;
         }

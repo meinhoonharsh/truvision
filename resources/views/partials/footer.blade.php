@@ -433,6 +433,35 @@
         justify-content: center;
         align-items: center;
     }
+
+
+    .footer-social h3 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .footer-social ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-social li {
+        display: inline-block;
+    }
+
+    .footer-social a i {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        background: #000;
+        margin-right: 5px;
+        color: #fff;
+    }
 </style>
 
 
@@ -453,32 +482,7 @@
                         Our Beautiful images that capture your life are not seen, nor touched, but are felt in the heart
                         and to be collected forever.
                     </p>
-                    <div class="footer-social-link">
-                        <h3>Follow us</h3>
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/truvisionartistry/">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="tel:9303102594">
-                                    <i class="fa fa-phone"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/truvisionfilms/">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
                     <!-- End Social link -->
-                </div>
-                <!-- End Footer info -->
-                <div class="footer-awarad">
-                    <img src="images/icon/best.png" alt="">
-                    <p>Best Design Company 2019</p>
                 </div>
             </div>
             <!-- End Col -->
@@ -514,66 +518,34 @@
                         <!-- End Contact Us -->
                     </div>
                     <!-- End Col -->
-                </div>
-                <!-- End Contact Row -->
-                <div class="row">
-                    <div class="col-md-12 col-lg-6">
-                        <div class="footer-widget footer-left-widget">
-                            <div class="section-heading">
-                                <h3>Useful Links</h3>
-                                <span class="animate-border border-black"></span>
+
+                    <d class="col-md-6">
+
+                        <div class="contact-us">
+                            <div class="footer-social">
+                                <h3>Follow us</h3>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/truvisionartistry/">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:9303102594">
+                                            <i class="fa fa-phone"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/truvisionfilms/">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">About</a>
-                                </li>
-                                <li>
-                                    <a href="#">Gallery</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="#">Films</a>
-                                </li>
-                                <li>
-                                    <a href="#">FAQs</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
                         </div>
-                        <!-- End Footer Widget -->
-                    </div>
-                    <!-- End col -->
-                    <div class="col-md-12 col-lg-6">
-                        <div class="footer-widget">
-                            <div class="section-heading">
-                                <h3>Subscribe</h3>
-                                <span class="animate-border border-black"></span>
-                            </div>
-                            <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-                                Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
-                            <form action="#">
-                                <div class="form-row">
-                                    <div class="col dk-footer-form">
-                                        <input type="email" class="form-control" placeholder="Email Address">
-                                        <button type="submit">
-                                            <i class="fa fa-send"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- End form -->
-                        </div>
-                        <!-- End footer widget -->
-                    </div>
-                    <!-- End Col -->
+                    </d>
                 </div>
-                <!-- End Row -->
+
             </div>
             <!-- End Col -->
         </div>
@@ -584,31 +556,10 @@
 
     <div class="copyright">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <span>Copyright © 2019, All Right Reserved Seobin</span>
-                </div>
-                <!-- End Col -->
-                <div class="col-md-6">
-                    <div class="copyright-menu">
-                        <ul>
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">Terms</a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                    <center>
+                        <span>Copyright © All Right Reserved Truvision</span>
+                    </center>
                 <!-- End col -->
-            </div>
             <!-- End Row -->
         </div>
         <!-- End Copyright Container -->
