@@ -1,7 +1,7 @@
 @php
     $services = [
         [
-            'title' => 'Customize Gifting',
+            'title' => 'Customized media Printing',
             'features' => [
                 'Personalized photo gifts',
                 'Unique designs for special occasions',
@@ -31,7 +31,7 @@
             'image' => '/static/assets/images/services/3.svg',
         ],
         [
-            'title' => 'Printing',
+            'title' => 'Enlargement Printing',
             'features' => [
                 'Custom photo albums',
                 'High-quality poster prints',
