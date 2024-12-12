@@ -7,7 +7,7 @@
         text-align: center;
         position: relative;
         width: 90%;
-        max-width: 700px;
+        max-width: 1000px;
         margin: 50px auto;
     }
 
@@ -187,8 +187,8 @@
                 <div id="testimonial-slider" class="owl-carousel">
                     <div class="testimonial">
                         <p class="description">
-                            Thank you for shooting. Our experience working with you was fantastic and the pictures you
-                            captured are outstanding and really captured the magic of the day
+                            We are so grateful for these stunning photos that reflect the joy and love of the day.
+                            Choosing favorites feels impossible, but we already have a few to frame and cherish.
                         </p>
                         <div class="pic">
                             <img src="/static/assets/images/testimonial/01.jpg" alt="">
@@ -198,9 +198,9 @@
 
                     <div class="testimonial">
                         <p class="description">
-                            Our sincere thanks for these beautiful photos, that absolutely captured the most heartfelt
-                            and happy day. We have no idea how we will pick our favourites for an album, though we
-                            definitely have one or two that we cannot wait to have framed and in our home.
+                            Thank you for capturing our special moments so beautifully. Working with
+                            you was an incredible experience, and the photos truly showcase the magic and emotions of
+                            the day.
                         </p>
                         <div class="pic">
                             <img src="/static/assets/images/testimonial/02.jpg" alt="">
@@ -221,7 +221,7 @@
 <script>
     $(document).ready(function() {
         $("#testimonial-slider").owlCarousel({
-            items: 1,
+            items: 2,
             itemsDesktop: [1000, 1],
             itemsDesktopSmall: [979, 1],
             itemsTablet: [768, 1],
