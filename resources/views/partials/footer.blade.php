@@ -557,7 +557,7 @@
     <div class="copyright">
         <div class="container">
                     <center>
-                        <span>Copyright © Truvision® | All Right Reserved</span>
+                        <span>Copyright © Truvision<sup>®</sup> | All Right Reserved</span>
                     </center>
                 <!-- End col -->
             <!-- End Row -->
