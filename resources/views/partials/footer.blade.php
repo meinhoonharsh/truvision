@@ -496,7 +496,7 @@
                             <!-- End contact Icon -->
                             <div class="contact-info">
                                 <h3>Bhopal, India</h3>
-                                <p>Jyoti Shoping Centre, Mp Nagar</p>
+                                <p>119, Jyoti Shoping Centre, Mp Nagar</p>
                             </div>
                             <!-- End Contact Info -->
                         </div>
@@ -557,7 +557,7 @@
     <div class="copyright">
         <div class="container">
                     <center>
-                        <span>Copyright © All Right Reserved Truvision</span>
+                        <span>Copyright © Truvision® | All Right Reserved</span>
                     </center>
                 <!-- End col -->
             <!-- End Row -->
