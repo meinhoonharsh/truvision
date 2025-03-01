@@ -185,28 +185,30 @@
         <div class="w-100  mx- col-md-offset-2">
             <div class="testimonial-bg">
                 <div id="testimonial-slider" class="owl-carousel">
+                    
                     <div class="testimonial">
                         <p class="description">
-                            We are so grateful for these stunning photos that reflect the joy and love of the day.
-                            Choosing favorites feels impossible, but we already have a few to frame and cherish.
+                            A big thank you to the entire team for all the support and for keeping me laughing
+                            throughout! Though I couldn’t capture moments myself, you all made sure every memory was
+                            beautifully saved.
                         </p>
                         <div class="pic">
-                            <img src="/static/assets/images/testimonial/01.jpg" alt="">
+                            <img src="/static/assets/images/testimonial/2.jpg" alt="">
                         </div>
-                        <h3 class="title">Rajesh Singh</h3>
+                        <h3 class="title">Dr. Devyani Surange</h3>
+                    </div>
+                    <div class="testimonial">
+                        <p class="description">
+                            Namaste Uncle! The reels are absolutely amazing — perfect songs, perfect moments. The entire
+                            team was wonderful, and the setup was fantastic. Special thanks to Tarun Bhaiya and
+                            especially to you for everything!
+                        </p>
+                        <div class="pic">
+                            <img src="/static/assets/images/testimonial/1.jpg" alt="">
+                        </div>
+                        <h3 class="title">Gold Bajaj</h3>
                     </div>
 
-                    <div class="testimonial">
-                        <p class="description">
-                            Thank you for capturing our special moments so beautifully. Working with
-                            you was an incredible experience, and the photos truly showcase the magic and emotions of
-                            the day.
-                        </p>
-                        <div class="pic">
-                            <img src="/static/assets/images/testimonial/02.jpg" alt="">
-                        </div>
-                        <h3 class="title">Harshita</h3>
-                    </div>
                 </div>
             </div>
         </div>
