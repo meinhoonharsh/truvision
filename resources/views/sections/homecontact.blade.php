@@ -10,31 +10,37 @@
 
 <div id="contact"></div>
 
-@include('mini.parallax', ['name' => 'Who we are', 'random' => rand(1, 18)])
+@include('mini.parallax', ['name' => 'Vision Behind Truvision', 'random' => rand(1, 18)])
 
 <div class="contentdiv container">
     <div class="container-80">
 
         <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-md-7">
+                
+                <div class="servicetitle">
+                    <h3>Mr. Pradeep Saxena</h3>
+                </div>
                 <p>
-                    Just drop us the dates, the events included for each day , tentative crowd count , tentative pheras
-                    timing ,
-                    the style of wedding (maharashtrian, gujrati etc. ) location and property name . This helps us in
-                    forming
-                    the team structure and giving you a reasonable quote accordingly.
+                    The creative force behind Truvision has been capturing stories since 1985 — constantly evolving with
+                    technology, trends, and time. 
                     <br>
                     <br>
-                    We typically drop the quotation mail within 48 hrs of any enquiry.
+                    With over 30 years of hands-on experience and learning under the
+                    guidance of the renowned Girish Mistry, our founder brings not just technical expertise but also a
+                    deep artistic vision to every frame. From the era of film rolls to today’s digital brilliance, this
+                    journey reflects passion, adaptability, and an undying love for storytelling through the lens.
                 </p>
 
                 {{-- <center>
                     @include('mini.anchor', ['name' => 'Contact Us'])
                 </center> --}}
             </div>
-            <div class="col-md-6">
-                <img src="/static/assets/images/pics/6.jpg" alt="" class="img-responsive img-fluid rounded">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <img src="/static/assets/images/user/pradeepdada.jpg" alt="" class="img-responsive img-fluid rounded">
+                
             </div>
 
         </div>
