@@ -26,7 +26,7 @@
                 'Coverage for corporate and social events',
                 'Expert photographers and videographers',
                 'Fast turnaround on event photos',
-                'On-site printing and digital copies available',
+                'Live Streaming at events',
             ],
             'image' => '/static/assets/images/services/3.svg',
         ],
@@ -103,6 +103,12 @@
         text-align: center;
     }
 
+    .servicefeatures .checkmark {
+        width: 1em;
+        transform: translateY(-2px);
+        margin-right: 0.1em;
+    }
+
     .servicefeatures ul li {
         color: white;
         font-family: var(--ptext);
@@ -128,7 +134,11 @@
                     <div class="servicefeatures">
                         <ul>
                             @foreach ($service['features'] as $feature)
-                                <li>{{ $feature }}</li>
+                                <li>
+                                    <img src="/static/assets/images/services/checkmark.svg" class="checkmark"
+                                        alt="checkmark">
+                                    {{ $feature }}
+                                </li>
                             @endforeach
                         </ul>
                     </div>
