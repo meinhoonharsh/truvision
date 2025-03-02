@@ -153,10 +153,22 @@
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/#services">Services</a></li>
             <li><a href="/faqs">FAQs</a></li>
-            <li><a href="/#contact">Contact</a></li>
         </ul>
 
         <ul class="rightul">
+
+            
+            <li>
+                <a href="https://www.facebook.com/truvisionartistry/">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/truvisionfilms/">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+
             <a href="https://wa.me/919303102594?text=Hello%20I%20am%20interested%20in%20your%20services" target="_blank" class="quotebutton">
                 <i class="fa fa-whatsapp"></i> Request a Quote
             </a>
